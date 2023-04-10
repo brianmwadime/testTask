@@ -1,0 +1,19 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142.3" height="71.5" viewBox="0 0 142.3 71.5">
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#6dc921;}.cls-4{fill:#bbd11e;}.cls-5{fill:#ed0f01;}.cls-6{fill:#ffad29;}.cls-7{fill:#333;}.cls-8{font-size:9.22px;fill:#fff;font-family:Arial-BoldMT, Arial;font-weight:700;}.cls-9{letter-spacing:-0.04em;}</style>
+    <clipPath id="clip-path" transform="translate(-16.1 -12.6)">
+      <rect class="cls-1" width="175" height="100" />
+    </clipPath>
+  </defs>
+  <title>risk meter</title>
+  <g class="cls-2">
+    <path class="cls-3" d="M36.9,33.5,56.8,53.3A43.1,43.1,0,0,0,44.1,83.8h-28A71.1,71.1,0,0,1,36.9,33.5" transform="translate(-16.1 -12.6)" />
+    <path class="cls-4" d="M87.3,40.7A43,43,0,0,0,56.8,53.3L36.9,33.5A72.7,72.7,0,0,1,59.6,18.2a70.7,70.7,0,0,1,27.7-5.6Z" transform="translate(-16.1 -12.6)" />
+    <path class="cls-5" d="M137.6,33.5a71.1,71.1,0,0,1,20.8,50.3h-28a43,43,0,0,0-12.6-30.5Z" transform="translate(-16.1 -12.6)" />
+    <path class="cls-6" d="M117.8,53.3A43.2,43.2,0,0,0,87.3,40.7V12.6A71,71,0,0,1,115,18.2a72.3,72.3,0,0,1,22.6,15.3Z" transform="translate(-16.1 -12.6)" />
+  </g>
+  <text class="cls-8" transform="translate(2.6 68)">
+    <tspan class="cls-9">LOW</tspan>
+  </text>
+  <text class="cls-8" transform="translate(115 68)">HIGH</text>
+</svg>
