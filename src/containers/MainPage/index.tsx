@@ -5,7 +5,7 @@ const MainPage: FC = () => {
 
 
   return (
-    <div>Maim Page</div>
+    <div>Main Page</div>
   );
 };
 
