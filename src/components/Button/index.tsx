@@ -10,13 +10,14 @@ interface Props {
   disabled?: boolean,
   size?: string,
   type?: string,
+  fullWidth?: boolean,
   onClick?: () => void,
   loader?: boolean,
   error?: string,
   children?: ReactNode
 }
 
-const Button: FC<Props> = ({ className, disabled, children, size, type, onClick, loader, error }) => {
+const Button: FC<Props> = ({ className, disabled, children, size, type, fullWidth, onClick, loader, error }) => {
   const { classes } = useStyles();
   return (
     <div className={className}>
@@ -28,6 +29,7 @@ const Button: FC<Props> = ({ className, disabled, children, size, type, onClick,
           [classes[type]]: type,
           [classes.loaderWrap]: loader,
           [classes.error]: error,
+          [classes.fullWidth]: fullWidth,
         })}
       >
         <div className={classes.text}>

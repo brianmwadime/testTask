@@ -240,6 +240,9 @@ const useStyles = makeStyles()(
       },
 
     },
+    fullWidth: {
+      width: '100%'
+    }
   })
 );
 
