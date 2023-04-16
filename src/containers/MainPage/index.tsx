@@ -45,7 +45,7 @@ const MainPage: FC = () => {
                   <div className={classes.body}>
                     <div className={classes.title}>Purchase price: $0.10</div>
                     <div>Balance 0.00</div>
-                    <Input disabled placeholder='Enter amount in USDC' disableUnderline={true} fullWidth={true} />
+                    <Input className={classes.disabledInput} disabled placeholder='Enter amount in USDC' disableUnderline={true} fullWidth={true} />
                     <div className={classes.tokens}>
                       You will recieve ____ L1X tokens vested over 15 months
                     </div>
