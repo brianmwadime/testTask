@@ -42,7 +42,10 @@ const Header: FC<Props> = ({ handleCloseDrawer }) => {
   return (
     <div className={classes.header}>
       <Container className={classNames(classes.row, classes.sideBar)}>
-        Header
+          <Link to={PATH_INDEX} className={classes.link}><img src={headerLogo} className={classes.logo} alt="" /></Link>
+          <Button className={classes.connectWallet} onClick={handleMyWallet} type='secondary' size='medium'>
+            Connect
+          </Button>
       </Container>
     </div>
   );
