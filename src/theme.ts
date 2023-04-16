@@ -81,6 +81,24 @@ const Theme = createTheme({
       fontWeight: 400,
       fontSize: 20,
     },
+  },
+  components: {
+    MuiInput: {
+      styleOverrides: {
+        root: {
+          background: '#21214F',
+          marginTop: '8px',
+          borderRadius: '10px',
+        },
+        input: {
+          fontSize: '18px',
+          padding: '18px',
+          '&.Mui-disabled': {
+            textFillColor: 'rgba(68, 68, 109, 1)'
+          }
+        }
+      }
+    }
   }
 });
 
