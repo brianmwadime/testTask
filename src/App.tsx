@@ -23,7 +23,7 @@ const App = () => {
         <Providers>
           <Routes>
             <Route index path={PATH_INDEX} element={<MainPage />} />
-            <Route index path={PATH_WALLET} element={<WalletPage />} />
+            <Route path={PATH_WALLET} element={<WalletPage />} />
           </Routes>
         </Providers>
       </BrowserRouter>
