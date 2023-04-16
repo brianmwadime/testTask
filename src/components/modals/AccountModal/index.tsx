@@ -33,7 +33,7 @@ const AccountModal: FC = () => {
         <div className={cx(classes.grid, classes.header)}>
           <div>Date</div>
           <div>Amount</div>
-          <div>Chain</div>
+          <div>Token</div>
         </div>
         <div className={classes.table}>
           {
@@ -41,7 +41,7 @@ const AccountModal: FC = () => {
               <div className={classes.grid} key={item.timestamp}>
                 <div>{moment(item.timestamp).format('HH:MM:SS, MM/DD/YYYY')}</div>
                 <div>{formatBNWithCommas(item.amount, 2, item.token.decimals)}{'  '} {item.token.symbol}</div>
-                <div>{CHAIN_INFO[item.chainId].name}</div>
+                <div>{item.token.name}</div>
               </div>
             ))
           }

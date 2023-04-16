@@ -14,7 +14,7 @@ const useStyles = makeStyles()(
           left: '0',
       },
       modalBackdrop: {
-          backgroundColor: '#00000088',
+          backgroundColor: 'rgba(176, 47, 150, 0.6)',
           position: 'absolute',
           top: '0',
           right: '0',

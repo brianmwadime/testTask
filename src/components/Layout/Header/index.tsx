@@ -30,6 +30,8 @@ const Header: FC<Props> = ({ handleCloseDrawer }) => {
   const { classes } = useStyles();
   const { account } = useWeb3();
 
+  const [showWallet, setShowWallet ] = useState(false);
+
   const [onPresentAccountModal] = useModal(
     <AccountModal />
   );
@@ -43,9 +45,16 @@ const Header: FC<Props> = ({ handleCloseDrawer }) => {
     <div className={classes.header}>
       <Container className={classNames(classes.row, classes.sideBar)}>
           <Link to={PATH_INDEX} className={classes.link}><img src={headerLogo} className={classes.logo} alt="" /></Link>
-          <Button className={classes.connectWallet} onClick={handleMyWallet} type='secondary' size='medium'>
+          { showWallet
+            ? <Button className={classes.connectWallet} onClick={handleMyWallet} type='secondary' size='medium'>
+            My Wallet
+          </Button>
+            : <Button className={classes.connectWallet} onClick={() => setShowWallet(true) } type='secondary' size='medium'>
             Connect
           </Button>
+
+          }
+
       </Container>
     </div>
   );
