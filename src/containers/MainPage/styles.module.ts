@@ -70,13 +70,6 @@ const useStyles = makeStyles()(
       fontSize: '24px',
       marginBottom: '32px'
     },
-    disabledInput: {
-     
-
-      '& input': {
-        
-      },
-    },
     tokens: {
       marginTop: '32px',
       fontWeight: 400,
